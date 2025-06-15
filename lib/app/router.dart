@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 import 'package:rickandmorty/views/app_view.dart';
-import 'package:rickandmorty/views/characters_view/characters_view.dart';
-import 'package:rickandmorty/views/favourites.view/favourites_view.dart';
-import 'package:rickandmorty/views/locations.view/locations_view.dart';
-import 'package:rickandmorty/views/sections.view/sections_view.dart';
+import 'package:rickandmorty/views/screens/characters_view/characters_view.dart';
+import 'package:rickandmorty/views/screens/favourites.view/favourites_view.dart';
+import 'package:rickandmorty/views/screens/locations.view/locations_view.dart';
+import 'package:rickandmorty/views/screens/sections.view/sections_view.dart';
 
 final _routerKey = GlobalKey<NavigatorState>();
 
